@@ -1,0 +1,145 @@
+.team-heading{
+    margin: 0 20px 20px 20px;
+}
+.team-logo img{
+    border-radius: 12px; 
+    width: 100%; 
+}
+.team-description{
+    margin-bottom: 40px;
+}
+.description-wraper{
+  margin-top: 20px;  
+  border-bottom: 4px solid #E6E6F0;;
+}
+.team-description-h1{
+    background: linear-gradient(90.13deg, #F0145A 0.84%, #EF8080 99.96%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 32px;
+    line-height: 38px;
+    font-weight: 700;
+    margin: 0;
+}
+.team-ul{
+    list-style: none;
+    padding: 14px 0 20px 0;
+    margin: 0;
+}
+.ul-paragraf{
+    font-size: 16px;
+    line-height: 22px;
+    color: #B3B3BA;
+    margin: 0 0 10px 0;
+}
+.team-ds{
+    display: none;
+}
+.ul-link{
+    text-decoration: none;
+    font-size: 16px;
+    line-height: 19px;
+    color: #24A3FF;
+}
+.separator{
+    padding: 5px 0;
+    margin: 0;
+}
+.biography{
+    margin-top: 20px;
+}
+.biography-paragraf{
+    font-size: 18px;
+    line-height: 26px;
+    color: #000000;
+    margin: 0 0 20px 0;
+}
+.biography-heading{
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+    margin: 0 0 10px 0;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #323264;
+}
+@media (min-width: 500px){
+   .team-logo{
+       padding: 0 10% 0 10%;
+       margin: auto;
+   }
+}
+@media (min-width: 768px){
+    .nav3-link {
+        color: #24A3FF;
+    }
+    .active{
+        color: #F0145A;
+        border-bottom: 2px solid #F0145A;
+    }
+    .team-heading{
+        display: flex;
+        margin: 0 10px 20px 10px;
+    }
+    .team-logo{
+        padding: 0;
+        margin: 0;
+        justify-content: flex-start;
+    }
+    .team-description{
+        margin-left: 10px;
+        flex-basis: 70%;
+    }
+    .team-ul{
+        display: flex;
+        align-items: center;
+    }
+    .biography-paragraf{
+        font-size: 14px;
+        line-height: 17px;
+    }
+    .biography-heading{
+        font-size: 12px;
+        line-height: 14px;
+    }
+    .ul-paragraf,.ul-link{
+        margin: 0;
+        font-size: 14px;
+    }
+    .team-ds{
+        display: block;
+        margin: 0 10px 0 10px;
+    }
+}
+@media (min-width: 1024px){
+    .team-heading{
+        margin: 0 12.014% 20px 12.014%;
+    }
+    .team-description{
+        margin-left: 3.748%;
+        max-width: 640px;
+    }
+}
+@media (min-width: 1150px){
+    .team-ul{
+        padding: 10px 0 20px 0;
+    }
+    .ul-paragraf{
+        font-size: 16px;
+    }
+    .ul-link{
+        font-size: 16px;
+    }
+    .biography{
+        margin-top: 40px;
+    }
+    .biography-paragraf{
+        font-size: 18px;
+        line-height: 26px;
+        margin: 0 0 37px 0 ;
+    }
+    .biography-heading{
+        font-size: 14px;
+        line-height: 17px;
+    }
+}
