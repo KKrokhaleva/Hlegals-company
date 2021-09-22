@@ -109,11 +109,6 @@
         line-height: 50px;
         margin: 3px 0 68px 0;
     }
-    .container-sp{
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: space-between;
-    }
     .sp-wraper{
         flex-basis: 48%;
         max-width: none;
@@ -131,7 +126,6 @@
         background-image: url("../img/Rectangle.png");
     }
     .sp-header{
-        font-weight: 500;
         max-width: 413px;
         margin: 20px 0 5px 0;
         font-size: 24px;
@@ -143,9 +137,7 @@
         line-height: 26px;
     }
     .clients-logo{
-        display: grid;
         grid-template-columns: 25% 25% 25% 25%;
-        grid-template-rows: 1fr 1fr 1fr;
     }
     .clients-logo-img{
         max-width: 100%;
@@ -188,9 +180,6 @@
     }
     .publication-section{
         column-count: 3;
-    }
-    .publications-h2 {
-        margin: 0 0 40px 0;
     }
     .publication-shadow{
         width: calc(100% - 120px);
