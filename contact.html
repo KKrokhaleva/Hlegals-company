@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="uk">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="fonts/fontsstyles.css">
+    <link rel="stylesheet" href="styles/header.css">
+    <link rel="stylesheet" href="styles/contact.css">
+    <link rel="stylesheet" href="styles/footer.css">
+    <title>Contact</title>
+</head>
+
+<body>
+    <!--===============HEADER======================-->
+    <header class="header">
+        <nav class="nav-top">
+            <div class="nav-lang">
+                <a class="lang" href="#">УК</a>
+                <a class="lang" href="#">РУ</a>
+                <a class="lang" href="#">EN</a>
+            </div>
+            <div class="nav-top-decstope">
+                <img class="ds" src="img/Dots.png" alt="">
+                <div class="header-adress"> Одеса, Адміральський пр., 3</div>
+                <img class="ds" src="img/Dots.png" alt="">
+                <div class="phone"><a href="tel:+380503901595">+38 (050) 390-15-95</a></div>
+                <img class="ds" src="img/Dots.png" alt="">
+                <a href="https://www.facebook.com/" class="nav-img-gray">
+                    <svg width="38" height="38" viewBox="0 0 38 38" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <g clip-path="url(#clip0)">
+                            <path
+                                d="M38 19.1161C38 8.55857 29.4934 0 19 0C8.50658 0 0 8.55857 0 19.1161C0 28.6575 6.94803 36.5659 16.0312 38V24.6419H11.207V19.1161H16.0312V14.9046C16.0312 10.1136 18.8678 7.46723 23.2078 7.46723C25.2866 7.46723 27.4609 7.84059 27.4609 7.84059V12.545H25.0651C22.7048 12.545 21.9688 14.0185 21.9688 15.5302V19.1161H27.2383L26.3959 24.6419H21.9688V38C31.052 36.5659 38 28.6575 38 19.1161Z"
+                                fill="currentColor" />
+                        </g>
+                    </svg>
+                </a>
+            </div>
+        </nav>
+
+        <div class="nav-bottom-mobile">
+            <img class="logomobile" src="img/Contact-Logo-Mobile.svg" alt="логотип Hlegals контакты">
+            <img class="logodecstope" src="img/contact-logo.svg" alt="логотип Hlegals контакты">
+            <div class="dropdown">
+                <button id="btn-dropdown-mobile" class="btn-dropdown">
+                    <img src="img/Hb-black.svg" alt="кнопка menu">
+                </button>
+                <nav id="dropdown-menu-mobile" class="dropdown-menu-mobile">
+                    <div class="mobile-dropdown-nav">
+                        <img class="dropdown-nav-logo" src="img/p-small.svg" alt="мини логотип компании">
+                        <img id="dropdown-nav-close" class="dropdown-nav-close" src="img/close-red.svg" alt="кнопка закрывающаяя мобильное меню" >
+                    </div>
+                    <ul class="dropdown-menu">
+                        <li class="dropdown-item-li"><a class="dropdown-item" href="about.html">о нас</a> </li>
+                        <li class="dropdown-item-li"><a class="dropdown-item" href="services.html">послуги</a></li>
+                        <li class="dropdown-item-li"><a class="dropdown-item" href="contact.html">команда</a></li>
+                        <li class="dropdown-item-li"><a class="dropdown-item" href="publication.html">публікації</a></li>
+                        <li class="dropdown-item-li"><a class="dropdown-item link-active " href="#">контакти</a></li>
+                    </ul>
+                </nav>
+            </div>
+
+        </div>
+        <nav class="nav-bottom-decstope">
+            <img class="bottom-decstope-logo" src="img/contact-logo.svg" alt="логотип Hlegals команда">
+            <div class="nav-bottom-links">
+                <a class="bottom-link " href="about.html">о нас</a>
+                <a class="bottom-link" href="services.html">послуги</a>
+                <a class="bottom-link" href="team.html">команда</a>
+                <a class="bottom-link" href="publication.html">публікації</a>
+                <a class="bottom-link link-active" href="#">контакти</a>
+            </div>
+        </nav>
+    </header>
+    <!--===============В ЭТОЙ СЕКЦИИ НАХОДЯТСЯ КОНТАКТЫ И КАРТА======================-->
+    <section class="contacts">
+        <h2 class="display-none">Контакты</h2>
+        <div class="contact">
+            <p class="adress text">Одеса,<br> Адміральський пр., 3</p>
+            <div class="mail-phone">
+                <div class="contact-phone "> <a class="text adress" href="tel:+380503901591">+38 (050) 390 15 91</a>
+                </div>
+                <div class="div"></div>
+                <div class="contact-mail "> <a class="text" href="mailto:contact@hlegals.net">contact@hlegals.net</a>
+                </div>
+            </div>
+            <div class="contact-description">
+                <img class="fb" src="img/Facebook.png" alt="логотип Facebook">
+                <p>Наша сторінка <br> в фейсбуці</p>
+            </div>
+        </div>
+        <form action="#" class="form">
+            <p class="form-header">Ми хотіли б Вам допомогти</p>
+            <input class="name form-border" type="text" placeholder="Iм’я" required>
+            <input class="massege form-border" type="text" placeholder="Повідомлення">
+            <p class="form-paragraf">Як вам відповісти?</p>
+            <input class="number form-border" type="tel" pattern="^\+38\d{3} \d{3} \d{2} \d{2}$"
+                placeholder="Номер телефона" required>
+            <input class="email form-border" type="text" placeholder="Email:example@gmail.com" required>
+            <input class="button" type="submit" value="Надіслати запит">
+        </form>
+    </section>
+
+    <div class="container">
+
+        <div class="map-wrap">
+
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d25355.1802353547!2d30.72153491252934!3d46.43729483790365!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40c63396894457b7%3A0x7f6c5236cbcb70c8!2sAdmiral&#39;s&#39;kyi%20Ave%2C%203%2C%20Odesa%2C%20Odes&#39;ka%20oblast%2C%2065000!5e0!3m2!1sen!2sua!4v1630314197658!5m2!1sen!2sua"
+                width="1440" height="600" style="border:0;" allowfullscreen="" loading="lazy">
+
+            </iframe>
+
+        </div>
+
+    </div>
+    <!--===============FOOTER======================-->
+    <footer class="footer">
+        <div class="footer-left">
+            <div class="footer-left-first-line">
+                <p class=" fp">Одеса, Адміральський пр., 3</p>
+                <img class="footerds" src="img/Ds.png" alt="">
+                <div class="map">
+                    <a
+                        href="https://www.google.com/maps/place/%D0%AE%D1%80%D0%B8%D0%B4%D0%B8%D1%87%D0%B5%D1%81%D0%BA%D0%B0%D1%8F+%D0%BA%D0%BE%D0%BC%D0%BF%D0%B0%D0%BD%D0%B8%D1%8F+%22%D0%90%D0%99%D0%9C%D0%A0%D0%90%D0%99%D0%A2%22/@46.437018,30.5898953,11z/data=!4m9!1m2!2m1!1z0KLQntCSINCu0YDQuNC00LjRh9C90LAg0LrQvtC80L_QsNC90ZbRjyDCq0hMRUdBTFPCuw!3m5!1s0x40c633bcf388a7a1:0x6dd17955c5537982!8m2!3d46.4370628!4d30.7299809!15sCjTQotCe0JIg0K7RgNC40LTQuNGH0L3QsCDQutC-0LzQv9Cw0L3RltGPIMKrSExFR0FMU8K7kgEIbGF3X2Zpcm0">
+                        подивитися на мапі
+                    </a>
+                </div>
+            </div>
+            <div class="footer-left-second-line">
+                <a href="https://www.facebook.com/">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="38" height="38" viewBox="0 0 38 38" fill="none"
+                    class="facebook-img">
+                    <path
+                        d="M38 19.1161C38 8.55857 29.4934 0 19 0C8.50658 0 0 8.55857 0 19.1161C0 28.6575 6.94803 36.5659 16.0312 38V24.6419H11.207V19.1161H16.0312V14.9046C16.0312 10.1136 18.8678 7.46723 23.2078 7.46723C25.2866 7.46723 27.4609 7.84059 27.4609 7.84059V12.545H25.0651C22.7048 12.545 21.9688 14.0185 21.9688 15.5302V19.1161H27.2383L26.3959 24.6419H21.9688V38C31.052 36.5659 38 28.6575 38 19.1161Z"
+                        fill="currentColor" />
+                </svg>
+                </a>
+                <img class="footerds" src="img/Ds.png" alt="">
+                <div class="tel">
+                    <a href="tel:+380503901591">+38 (050) 390 15 91</a>
+                </div>
+                <img class="footerds" src="img/Ds.png" alt="">
+                <div class="mail">
+                    <a href="mailto:contact@hlegals.net">contact@hlegals.net</a>
+                </div>
+            </div>
+        </div>
+
+        <h3 class="fh3">
+            © 2021 ТОВ Юридична компанія «HLEGALS»
+        </h3>
+    </footer>
+
+    <script src="scripts/jquery.min.js"></script>
+    <script src="scripts/Hlegals-scripts.js"></script>
+</body>
+
+</html>
